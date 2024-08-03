@@ -107,11 +107,11 @@ ASGI_APPLICATION = 'core.asgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "railway",
-        "USER": "postgres",
-        "PASSWORD": "mbYAXMtVlDkOGRTGVXBhyWUBAsYbsrAl",
+        "NAME": "",
+        "USER": "",
+        "PASSWORD": "",
         "HOST": "roundhouse.proxy.rlwy.net",
-        "PORT": "34093",
+        "PORT": "",
     }
 }
 
@@ -211,7 +211,7 @@ CHANNEL_LAYERS = {
     "default": {
         "BACKEND": "channels_redis.core.RedisChannelLayer",
         "CONFIG": {
-            "hosts": [("redis://default:kP1jo3N1chonN6gkBoKObnKNfE4aC3EG@monorail.proxy.rlwy.net:25601")],
+            "hosts": [("")],
         },
     },
 }   
